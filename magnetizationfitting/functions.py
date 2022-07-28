@@ -39,7 +39,12 @@ def fit_function(fields, J1, J2, A, Ms, half_thickness, zero_bound=1e-4, sorted=
     # initialize array for storing return array
     mag = np.zeros(len(fields))
     x = np.linspace(0, half_thickness, int(half_thickness*10))
-    upper_bound = np.pi/2
+    
+    if J1 < 2*J2:
+        upper_bound = 1/2*np.arccos(-J1/(2*J2))
+    else:
+        upper_bound = np.pi/2
+        
     for index, H in enumerate(fields):
 
         # upon nearing saturation the solution becomes zero the solver requires
