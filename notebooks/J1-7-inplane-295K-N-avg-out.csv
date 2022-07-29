@@ -1,4 +1,4 @@
-# ran on: 2022-07-27
+# ran on: 2022-07-28
 # method = continuous (https://github.com/Elliot-Wadge/MagnetizationFitting)
 # J1 = 2.6907 +/- 0.0037
 # J2 = 1.6889 +/- 0.0038
@@ -11,7 +11,7 @@
 # theta_data = 180.0
 # theta_model = 142.8
 # theta = 161.4
-# red chisq = 7.279 +/- 0.054
+# red chisq = 15.732 +/- 0.054
 # 
 # Field (T),Mag (Data) (kA/m),Mag (Model) (kA/m),Residuals(kA/m)
 0.000000000000000000e+00,3.856474763673552464e-01,4.387840046049362730e-01,-5.313652823758102661e-02
