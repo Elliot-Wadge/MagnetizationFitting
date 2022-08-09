@@ -2,9 +2,9 @@
 
 This repository looks to model magnetic moment distribution using a continuous approximation obeying:
 
-$$\theta^{~\prime\prime} = \frac{\text{sin}\theta}{\delta^2}$$
+$$\phi^{~\prime\prime} = \frac{\text{sin}\phi}{\delta^2}$$
 
-where $\theta$(x) is the angle between the magnetic moment and the external magnetic field as a function of distance from the edge of the device 
+where $\phi$(x) is the angle between the magnetic moment and the external magnetic field as a function of distance from the edge of the device 
 
 $$\delta^2 = \frac{HM_s}{2A}$$
 
@@ -12,9 +12,9 @@ where $H$ is the external magnetic field,  $A$ is the exchange stiffness
 
 with boundary conditions 
 
-$$\theta^{~\prime}(0) = 0$$
+$$\phi^{~\prime}(0) = 0$$
 
-$$-2A\theta^{~\prime}(d) - J_1\text{sin}(2\theta(d)) - J_2\text{sin}(4\theta(d))$$
+$$-2A\phi^{~\prime}(d) - J_1\text{sin}(2\phi(d)) - J_2\text{sin}(4\phi(d))$$
 
 where $J_1$ is the Bilinear interlayer exchange and $J_2$ is the Biquadratic interlayer exchange coupling, $\textcolor{orange}{\underline{\text{\small both are defined as positive}}}$, d is the distance to the interface.
 
