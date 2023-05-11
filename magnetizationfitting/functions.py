@@ -48,7 +48,7 @@ def fit_function(fields, J1, J2, A, Ms, half_thickness, zero_bound=1e-4, sorted=
     for index, H in enumerate(fields):
 
         if H == 0 and J1 <= 2*J2:
-            phis_opt = 1/2*np.arccos(-J1/2*J2)*np.ones(len(x))
+            phis_opt = 1/2*np.arccos(-J1/(2*J2))*np.ones(len(x))
             mag[index] = 1/(len(x))*sum(np.cos(phis_opt))
             continue
 
